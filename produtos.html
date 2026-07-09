@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Produtos | StockFlow</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/variables.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/products.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header class="dashboard-header">
+
+        <div class="container header-content">
+
+            <h1 class="logo">
+
+                Stock<span>Flow</span>
+
+            </h1>
+
+            <nav class="dashboard-nav">
+
+                <a href="dashboard.html">
+                    Dashboard
+                </a>
+
+                <a href="produtos.html" class="active">
+                    Produtos
+                </a>
+
+            </nav>
+
+            <div class="user">
+
+                Pedro Lucas ▼
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- CONTEÚDO -->
+
+    <main class="products">
+
+        <div class="container">
+
+            <!-- CABEÇALHO -->
+
+            <section class="page-header">
+
+                <div>
+
+                    <h2>Produtos</h2>
+
+                    <p>
+                        Gerencie todos os produtos cadastrados no estoque.
+                    </p>
+
+                </div>
+
+                <button class="btn-primary">
+
+                    + Novo Produto
+
+                </button>
+
+            </section>
+
+            <!-- PESQUISA -->
+
+            <section class="search-box">
+
+                <input
+                    type="text"
+                    placeholder="🔍 Pesquisar produto..."
+                >
+
+            </section>
+
+            <!-- CARDS -->
+
+            <section class="summary">
+
+                <div class="summary-card">
+
+                    <h4>Total de Produtos</h4>
+
+                    <span>0</span>
+
+                </div>
+
+                <div class="summary-card">
+
+                    <h4>Categorias</h4>
+
+                    <span>0</span>
+
+                </div>
+
+                <div class="summary-card">
+
+                    <h4>Baixo Estoque</h4>
+
+                    <span>0</span>
+
+                </div>
+
+            </section>
+
+            <!-- TABELA -->
+
+            <section class="table-container">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+
+                            <th>Produto</th>
+
+                            <th>Categoria</th>
+
+                            <th>Quantidade</th>
+
+                            <th>Valor</th>
+
+                            <th>Ações</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td colspan="5" class="empty">
+
+                                <h3>Nenhum produto cadastrado</h3>
+
+                                <p>
+
+                                    Clique em <strong>"Novo Produto"</strong>
+                                    para adicionar o primeiro produto.
+
+                                </p>
+
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <script src="./js/products.js"></script>
+
+</body>
+
+</html>
